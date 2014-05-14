@@ -50,25 +50,25 @@ fi
 ## Settings for minecraft-init-script
 
 # Nice looking name of service for script to report back to users
-SERVERNAME="CraftBukkit"
+SERVERNAME="Spigot"
 
 # Filename of server binary
-SERVICE="craftbukkit.jar"
+SERVICE="spigot.jar"
 
 # URL of server executable for update checking - http://cbukk.it/craftbukkit.jar is the recommended latest Craftbukkit URL
-SERVER_URL="http://cbukk.it/craftbukkit.jar"
+SERVER_URL="http://ci.md-5.net/job/Spigot/lastSuccessfulBuild/artifact/Spigot-Server/target/spigot.jar"
 
 # Username of non-root user who will run the server
-USERNAME="bukkit"
+USERNAME="minecraft"
 
 # Path of server binary and world
-MCPATH="/home/bukkit/craftbukkit"
+MCPATH="/home/minecraft/spigot"
 
 # Number of CPU cores to thread across if using multithreaded garbage collection
-CPU_COUNT="2"
+CPU_COUNT="4"
 
 # Where backups go
-BACKUPPATH="/home/bukkit/backups"
+BACKUPPATH="/home/spigot/backups"
 
 # How many days worth of backups to keep (default 7)
 BACKUPS_TO_KEEP="7"
